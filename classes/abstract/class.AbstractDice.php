@@ -1,4 +1,4 @@
-
-abstract class Dice {
+<?
+abstract class AbstractDice {
  abstract public function roll();
 }
