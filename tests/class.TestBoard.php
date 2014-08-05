@@ -6,14 +6,15 @@
  * Time: 10:34 PM
  */
 
-namespace tests;
+//namespace tests;
+require '../class.AbstractBoard.php';
 
 
 class TestBoard extends \PHPUnit_Framework_TestCase {
 
     public function testCanIstantiateBoard()
     {
-//        $b = new Board();
+        $board = new Board;
     }
 
 }
